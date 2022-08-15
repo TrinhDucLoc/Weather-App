@@ -30,3 +30,7 @@ body {
 .btn-search:hover {
     cursor: pointer;
 }
+
+.form-result {
+    margin-top: 10px;
+}

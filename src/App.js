@@ -59,7 +59,7 @@ function App() {
           {loading ? (<div>Loading...</div>) : (
             <>
               {errorMessage ? (<div style={{color: "red"}}>{errorMessage}</div>) : 
-              (<div>{weatherInfo}</div>)}
+              (<div class="weather-info">{weatherInfo}</div>)}
             </>
           )}
         </div>
